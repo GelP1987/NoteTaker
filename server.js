@@ -17,7 +17,7 @@ app.get("/notes", (req, res) => {
     res.sendFile(path.join(__dirname, "./public/notes.html"));
   });
 // creates route for js
-app.get("/api/notes", (req, res) => {n
+app.get("/api/notes", (req, res) => {
     fs.readFile("./db/db.json", (err, data) => {
         if (err) {
             console.log(err);
