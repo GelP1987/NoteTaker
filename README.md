@@ -1,4 +1,8 @@
-# Note Taker Starter Code
+# Note Taker (w/ Starter Code)
+
+## Purpose
+
+Easy to use everyday Note Taking App with simple UI and intuitive fucntionatlity.
 
 ## Built With
 
@@ -7,6 +11,17 @@ HTML, CSS, JavaScript, Node.JS, NPM (Express), Heroku
 ## Contribution
 
 Created with ❤️ by Philip Gelin. Special thanks to Gary, Marie, and Joe for making it happen. Couldn't have done it without you nerds!
+
+## Website
+
+Link: https://shielded-eyrie-70121.herokuapp.com/
+
+Screenshots (w/gif):
+![Screencapture of Portfolio Webpage.](assets/NOTETaker.png)
+
+![Screencapture of Portfolio Webpage.](assets/NOTETaker-notes.png)
+
+![Screencapture of Portfolio Webpage.](assets/NOTETaker.gif)
 
 ## USER STORY: AS A small business owner
 
