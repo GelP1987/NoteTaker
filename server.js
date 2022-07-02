@@ -48,7 +48,7 @@ app.post("/api/notes", (req, res) => {
         };
     });
 });
-// deletes existing notes (currently all notes** need fix**)
+// deletes existing notes
 app.delete("/api/notes/:id", (req, res) =>{
     fs.readFile("./db/db.json", (err, data) => {
         if (err) {
@@ -56,9 +56,7 @@ app.delete("/api/notes/:id", (req, res) =>{
         } else {
             let newNotes = JSON.parse(data) || [];
             const id = req.params.id;
-            let deletedNote = newNotes.filter(note => {
-                note.id !== id
-            });
+            let deletedNote = newNotes.filter(note => (note.id !== id));
             fs.writeFile("./db/db.json", JSON.stringify(deletedNote), (err) => {
                 if (err) {
                     console.log(err);
